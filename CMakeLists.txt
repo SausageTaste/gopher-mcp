@@ -364,7 +364,7 @@ message(STATUS "nlohmann/json download complete.")
 FetchContent_Declare(
     yaml-cpp
     GIT_REPOSITORY https://github.com/jbeder/yaml-cpp.git
-    GIT_TAG 0.8.0
+    GIT_TAG yaml-cpp-0.9.0
 )
 # Disable yaml-cpp tests and tools
 set(YAML_CPP_BUILD_TESTS OFF CACHE BOOL "Disable yaml-cpp tests")
